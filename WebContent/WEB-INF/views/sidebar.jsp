@@ -50,7 +50,7 @@
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
 		
 				<li class="${ param.bigactive == 'Passenger' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
-						class="material-icons">assignment</i> <span>Passengers</span>
+						class="material-icons">account_circle</i> <span>Passengers</span>
 				</a>
 					<ul class="ml-menu">
 						<li class="${ param.smallactive == 'listPassengers' ? 'active' : 'notActive' }">
@@ -61,23 +61,12 @@
 						
 					</ul></li>
 					
-<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
-					<li class="${ param.bigactive == 'Plane' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
-						class="material-icons">assignment</i> <span>Airplane</span>
-				</a>
-					<ul class="ml-menu">
-						<li class="${ param.smallactive == 'listPlane' ? 'active' : 'notActive' }">
-						<a href="<c:url value="/listAirplane" />">Aircraft List</a></li>
-						
-						<li class="${ param.smallactive == 'addPlane' ? 'active' : 'notActive' }">
-						<a href="<c:url value="/addAirplane" />">Add Plane</a></li>
-						
-					</ul></li>
-				
+					
+					
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
 
-					<li class="${ param.bigactive == 'Flight' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
-						class="material-icons">assignment</i> <span>Flights</span>
+	<li class="${ param.bigactive == 'Flight' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
+						class="material-icons">flight_takeoff</i> <span>Flights</span>
 				</a>
 					<ul class="ml-menu">
 						<li class="${ param.smallactive == 'listFlights' ? 'active' : 'notActive' }">
@@ -90,8 +79,69 @@
 				
 <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
 
+					<li class="${ param.bigactive == 'Plane' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
+						class="material-icons">airplanemode_active</i> <span>Airplane</span>
+				</a>
+					<ul class="ml-menu">
+						<li class="${ param.smallactive == 'listPlane' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/listAirplane" />">Aircraft List</a></li>
+						
+						<li class="${ param.smallactive == 'addPlane' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/addAirplane" />">Add Plane</a></li>
+						
+					</ul></li>
+				
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+				
+
 				<li class="${ param.bigactive == 'Pilot' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
-						class="material-icons">assignment</i> <span>Pilots</span>
+						class="material-icons">assignment_ind</i> <span>Pilots</span>
+				</a>
+					<ul class="ml-menu">
+						<li class="${ param.smallactive == 'listPilots' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/pilotList" />">Pilot List</a></li>
+						
+						<li class="${ param.smallactive == 'addPilot' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/addPilot" />">Add Pilot</a></li>
+						
+					</ul></li>
+				
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+
+				<li class="${ param.bigactive == 'Pilot' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
+						class="material-icons">wc</i> <span>Stewards</span>
+				</a>
+					<ul class="ml-menu">
+						<li class="${ param.smallactive == 'listPilots' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/pilotList" />">Pilot List</a></li>
+						
+						<li class="${ param.smallactive == 'addPilot' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/addPilot" />">Add Pilot</a></li>
+						
+					</ul></li>
+				
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+	
+
+				<li class="${ param.bigactive == 'Pilot' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
+						class="material-icons">business</i> <span>Maintenance company</span>
+				</a>
+					<ul class="ml-menu">
+						<li class="${ param.smallactive == 'listPilots' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/pilotList" />">Pilot List</a></li>
+						
+						<li class="${ param.smallactive == 'addPilot' ? 'active' : 'notActive' }">
+						<a href="<c:url value="/addPilot" />">Add Pilot</a></li>
+						
+					</ul></li>
+				
+<!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+				<li class="${ param.bigactive == 'Pilot' ? 'active' : 'notActive' }"><a href="javascript:void(0);" class="menu-toggle"> <i
+						class="material-icons">build</i> <span>Maintenance operations</span>
 				</a>
 					<ul class="ml-menu">
 						<li class="${ param.smallactive == 'listPilots' ? 'active' : 'notActive' }">
