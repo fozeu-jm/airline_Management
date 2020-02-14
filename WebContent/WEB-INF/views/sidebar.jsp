@@ -145,7 +145,7 @@
 				</a>
 					<ul class="ml-menu">
 						<li class="${ param.smallactive == 'listPilots' ? 'active' : 'notActive' }">
-						<a href="<c:url value="/pilotList" />">Pilot List</a></li>
+						<a href="<c:url value="/pilotList" />">Pilot List </a></li>
 						
 						<li class="${ param.smallactive == 'addPilot' ? 'active' : 'notActive' }">
 						<a href="<c:url value="/addPilot" />">Add Pilot</a></li>
